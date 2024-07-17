@@ -126,7 +126,7 @@ h3 i{
   position: absolute;
   top: 403px;
   left: -43px;
-  width: 180px;
+  width: 170px;
   height: 70px;
   display: flex;
   align-items: center;
@@ -183,6 +183,51 @@ h3 i{
   color: #FFFFFFA6;
 }
 
+/* Habits section style */
+
+.change-habit > h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+.change-habit > p {
+  text-align: center;
+  color: #FFFFFF80;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.image-flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flexbox-img{
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.flexbox-img img{
+  border-radius: 50%;
+}
+
+.flexbox-img h5{
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.flexbox-img p{
+  color: #FFFFFF80;
+  font-size: 0.8rem;
+}
 
 
 /* Responsive for small devices */
@@ -227,6 +272,18 @@ h3 i{
     top: 199px;
     right: -1;
   }
+  .change-habit > h3{
+    font-size: 1.8rem;
+  }
+  .image-flexbox{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .flexbox-img{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 26px 34px;
+    border-radius: 8px;
+  }
 }
 
 
@@ -249,30 +306,34 @@ h3 i{
   h3 i {
     font-size: 3rem;
   }
-    .title-container {
-      flex-direction: column;
-    }
+  .title-container {
+    flex-direction: column;
+  }
   
-    .text-title {
-      font-size: 4rem;
-    }
+  .text-title {
+    font-size: 4rem;
+  }
   
-    .shape {
-      font-size: 4rem;
-    }
-  
-    .text-container {
-      width: 500px;
-      height: 100%;
-    }
-  
-    .title-btn {
-      padding: 5px 15px;
-    }
-  
-    .title-btn2 {
-      padding: 5px 15px;
-    }
+  .shape {
+    font-size: 4rem;
+  }
+  .text-container {
+    width: 500px;
+    height: 100%;
+  }
+  .title-btn {
+    padding: 5px 15px;
+  }
+  .title-btn2 {
+    padding: 5px 15px;
+  }
+  .change-habit>h3 {
+    font-size: 1.8rem;
+  }
+  .image-flexbox {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
 
 }
 
