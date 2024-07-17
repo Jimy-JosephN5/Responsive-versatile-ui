@@ -118,6 +118,71 @@ h3 i{
   background: rgb(20, 19, 19);
 }
 
+.image-container{
+  position: relative;
+}
+
+.card1{
+  position: absolute;
+  top: 403px;
+  left: -43px;
+  width: 180px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid red;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.solid-color{
+  width: 30px;
+  height: 30px;
+  background: #E6533C;
+  border-radius: 50%;
+}
+
+.video-text h4{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.video-text p{
+  color: #fff;
+  font-size: 1rem;
+  color: #EFEDE8A6;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 180px;
+  right: -19px;
+  width: 180px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.card2 h3{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.card2 p{
+  color: 1;
+  color: #FFFFFFA6;
+}
+
 
 
 /* Responsive for small devices */
@@ -140,13 +205,13 @@ h3 i{
     flex-direction: column;
   }
   .text-title{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .shape{
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .text-container{
-    width: 285px;
+    width: 100%;
     height: 100%;
   }
   .title-btn{
@@ -154,6 +219,13 @@ h3 i{
   }
   .title-btn2{
     padding: 5px 15px;
+  }
+  .card1{
+    left: 0;
+  }
+  .card2{
+    top: 199px;
+    right: -1;
   }
 }
 
