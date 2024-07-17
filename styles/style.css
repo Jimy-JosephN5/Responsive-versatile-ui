@@ -1,0 +1,59 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+html, body{
+  background: rgb(20, 19, 19);
+}
+/* Shared styles */
+
+.container{
+  width: 993px;
+  margin: 5rem auto;
+}
+
+.btn-btn{
+  border-radius: 46px;
+  background: #E6533C;
+  padding: 8px 20px;
+}
+
+/* Navbar */
+
+.title{
+  font-size: 4rem;
+  color: #E6533C;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-options ul{
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 12px 24px 12px 4px;
+}
+
+.nav-options > ul >li{
+  list-style: none;
+}
+
+.nav-options>ul>li > a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
