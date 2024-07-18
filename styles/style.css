@@ -231,7 +231,7 @@ h3 i{
 
 /* Motive section style */
 .motive-section{
-  width: 1060px;
+  /* width: 1060px; */
   height: 371px;
   display: flex;
   align-items: center;
@@ -331,6 +331,19 @@ h3 i{
     height: 100%;
     padding: 30px 0;
   }
+  .motive-texts>h3 {
+    font-size: 2rem;
+    width: 287px;
+  }
+
+  .motive-texts>p {
+    font-size: 0.9rem;
+    color: #FFFFFF80;
+    margin-bottom: 20px;
+  }
+  .motive-btn{
+    width: 100%;
+  }
 }
 
 
@@ -380,6 +393,12 @@ h3 i{
   .image-flexbox {
     flex-wrap: wrap;
     gap: 50px;
+  }
+  .motive-section {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
   }
 
 }
