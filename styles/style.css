@@ -344,6 +344,9 @@ h3 i{
   .motive-btn{
     width: 100%;
   }
+  .motive-img img{
+    width: 100%;
+  }
 }
 
 
@@ -395,8 +398,7 @@ h3 i{
     gap: 50px;
   }
  .motive-section {
-   flex-direction: column;
-   width: 100%;
+   gap: 50px;
  }
 
  .motive-texts {
@@ -418,7 +420,9 @@ h3 i{
  .motive-btn {
    width: 100%;
  }
-
+ .motive-img img{
+  width: 100%;
+ }
 }
 
 
