@@ -416,6 +416,61 @@ input[type="text"]{
   outline: none;
   color: #ffffff56;
 }
+
+/* Unique Part */
+/* Protein Products */
+.protein-title{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.protein-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.proteins{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.protein-img img{
+  width: 400px;
+}
+
+.protein-btn{
+  border: none;
+  background: #E6533C;
+  padding: 12px 18px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s ease-out;
+}
+
+.protein-btn:hover{
+  transform: translate(0, -5px);
+}
+
+/* team members */
+.team-container{
+  background: #FFFFFF1A;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.team-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px ;
+  /* padding: 30px 0; */
+}
 /* Responsive for small devices */
 
 @media screen and (max-width: 576px) {
@@ -496,37 +551,46 @@ input[type="text"]{
   }
  .training-content {
    width: 100%;
- }
- .training-content>h3 {
-   font-size: 2rem;
- }
-.table-container {
-  flex-direction: column;
- }
- .table-texts{
-  width: 100%;
- }
- table{
-  width: 100%;
- }
- .input-field{
-  width: 100%;
- }
- input[type="text"]{
-  width: 100%;
- }
- #gender{
-  width: 100%;
- }
- #activity{
-  width: 100%;
- }
-}
-
+  }
+  .training-content>h3 {
+    font-size: 2rem;
+  }
+  .table-container {
+   flex-direction: column;
+  }
+  .table-texts{
+   width: 100%;
+  }
+  table{
+   width: 100%;
+  }
+  .input-field{
+   width: 100%;
+  }
+  input[type="text"]{
+   width: 100%;
+  }
+  #gender{
+   width: 100%;
+  }
+  #activity{
+   width: 100%;
+  }
+  .protein-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .protein-img img{
+   width: 100%;
+  }
+  .team-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+} 
+ 
 
 /* Responsive for medium devices */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1200px) {
   .nav-options {
     display: none;
   }
@@ -572,61 +636,68 @@ input[type="text"]{
     gap: 50px;
   }
  .motive-section {
-   gap: 50px;
- }
-
- .motive-texts {
-   width: 100%;
-   height: 100%;
-   margin-bottom: 30px;
- }
-
- .motive-texts>h3 {
-   font-size: 2rem;
- }
-
- .motive-texts>p {
-   font-size: 0.9rem;
-   color: #FFFFFF80;
-   margin-bottom: 20px;
- }
-
+    gap: 50px;
+  }
+ 
+  .motive-texts {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+ 
+  .motive-texts>h3 {
+    font-size: 2rem;
+  }
+ 
+  .motive-texts>p {
+    font-size: 0.9rem;
+    color: #FFFFFF80;
+    margin-bottom: 20px;
+  }
+ 
  .motive-btn {
    padding: 16px 40px;
- }
- .motive-img img{
-  width: 100%;
- }
-.training-content {
-  width: 100%;
-}
-.training-content>h3 {
-  font-size: 2rem;
-}
+  }
+  .motive-img img{
+   width: 100%;
+  }
+  .training-content {
+    width: 100%;
+  }
+  .training-content>h3 {
+    font-size: 2rem;
+  }
+  
+  .table-texts {
+    width: 100%;
+  }
+ 
+  table {
+   width: 100%;
+  }
+ 
+  .input-field {
+   width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  #gender {
+    width: 100%;
+  }
+  
+  #activity {
+    width: 100%;
+  }
+  .protein-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-.table-texts {
-  width: 100%;
-}
-
-table {
-  width: 100%;
-}
-
-.input-field {
-  width: 100%;
-}
-
-input[type="text"] {
-  width: 100%;
-}
-
-#gender {
-  width: 100%;
-}
-
-#activity {
-  width: 100%;
-}
-}
-
+  .protein-img img {
+    width: 100%;
+  }
+} 
+ 
 
